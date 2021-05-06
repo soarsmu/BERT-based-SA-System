@@ -6,7 +6,7 @@ We highly recommond users to explore project with docker. You can configure the 
 docker pull pytorch/pytorch:1.2-cuda10.0-cudnn7-devel
 ```
 
-Then you need to download the BERT model fine-tuned on IMDb movie review dataset. We can download the model data via [Google Drive](www.google.com). After unziping the file, you can get a folder called `uncased_L-12_H-768_A-12`. You can `mkdir models` in your root folder, and put `uncased_L-12_H-768_A-12` under that newly created `models` folder.
+Then you need to download the BERT model fine-tuned on IMDb movie review dataset. We can download the model data via [Google Drive](www.google.com). After unziping the file, you can get a folder called `models`. You can put it under the repository root folder.
 
 You can use the following code to use the SA system.
 
