@@ -3,7 +3,7 @@
 We highly recommond users to explore project with docker. You can configure the environment with the following command.
 
 ```
-docker pull pytorch/pytorch:1.2-cuda10.0-cudnn7-devel
+docker pull zhouyang996/bert_sentiment_analysis:biasrv
 ```
 
 Then you need to download the BERT model fine-tuned on IMDb movie review dataset. We can download the model data via [Google Drive](https://drive.google.com/file/d/1SVA1xyzhl7fHC3ta1Icpx-7WpfsChGBq/view?usp=sharing). After unziping the file, you can get a folder called `models`. You can put it under the repository root folder.
